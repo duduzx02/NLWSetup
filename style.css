@@ -6,7 +6,7 @@
 }
 
 body * {
-  border: 1px solid rebeccapurple;
+  /* border: 1px solid rebeccapurple; */
 }
 
 body {
@@ -16,10 +16,12 @@ body {
 }
 
 header {
+  position: fixed;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 48px;
+  padding: 48px
 }
 
 button {
@@ -35,9 +37,11 @@ button {
   font-size: 16px;
 }
 
-form {
+#form-habits {
   display: flex;
-  padding: 0 42px;
+  padding: 200px 42px 42px;
+  border: 2px solid rebeccapurple;
+  width: fit-content;
 }
 
 .days {
@@ -92,4 +96,10 @@ input {
 input:checked {
   background-color: #8b5cf6;
   border: 2px solid #a78bfa;
+}
+
+@media (max-width: 768px) {
+  #restoBotao{
+    display: none;
+  }
 }
