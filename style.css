@@ -5,9 +5,6 @@
   font-family: "Inter", sans-serif;
 }
 
-body * {
-  /* border: 1px solid rebeccapurple; */
-}
 
 body {
   background-color: #09090a;
@@ -35,12 +32,12 @@ button {
   gap: 12px;
   font-weight: 600;
   font-size: 16px;
+  cursor: pointer;
 }
 
 #form-habits {
   display: flex;
   padding: 200px 42px 42px;
-  border: 2px solid rebeccapurple;
   width: fit-content;
 }
 
